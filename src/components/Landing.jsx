@@ -20,7 +20,10 @@ function Landing() {
           <h4 className="text-md text-center">Chill Human, Roll here!</h4>
         </div>
         <div className="image  h-auto w-72 mx-auto">
-          <img src="/images/landingPage.png" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL}/images/landingPage.png`}
+            alt="Landing Page"
+          />
         </div>
         <div className="playBtn  h-20 w-72 mx-auto flex justify-center items-center">
           <Link to="/game">

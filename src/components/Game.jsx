@@ -51,7 +51,7 @@ function Game() {
         </div>
         <div className="dice h-44 w-72  mx-auto flex-col mt-2">
           <img
-            src={`/images/dice_${diceNumber}.png`}
+            src={`${import.meta.env.BASE_URL}images/dice_${diceNumber}.png`}
             alt=""
             className={`h-28 w-auto mx-auto mt-4 transition-transform duration-300 ${
               isTransitioning ? "rotate-12" : ""
